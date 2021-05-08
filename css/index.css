@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+.carList {
+  display: flex;
+  margin: 0 20vw;
+  flex-wrap: wrap;
+}
+.car {
+  padding: 2vw 3.6vw;
+  color: white;
+  flex: 1 0 250px;
+}
+.carElement {
+  margin-bottom: 20px;
+}
+#sedansCar {
+  background-color: #e28525;
+  border-radius: 5px 0 0 5px;
+}
+#suvCar {
+  background-color: #016972;
+}
+#luxuryCar {
+  background-color: #00403f;
+  border-radius: 0 5px 5px 0;
+}
+.learMorebtn {
+  padding: 0.7rem 0.8rem;
+  background-color: #fff;
+  border-radius: 20px;
+  color: black;
+  max-width: 120px;
+  margin: 10vh 0 20px 10px;
+}
+.luxurybtn {
+  color: #00403f;
+}
+.suvbtn {
+  color: #016972;
+}
+.sedansbtn {
+  color: #e28525;
+}
+.carTitle {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1100px) {
+  /* For mobile phones: */
+  body {
+    justify-content: flex-start;
+  }
+}
